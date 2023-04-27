@@ -1,0 +1,67 @@
+COM S 227 Assignment 1, Fall 2022
+Graded by Abdurahman Mohammed abdu@iastate.edu
+
+Early: No
+Late: No
+Early/late Adjustment: 0
+
+Final score  120/120
+
+Excellent Job! Keep up the good work.
+
+---------------
+Rubric summary
+---------------
+5 Javadoc
+15 Style, submission, spec conformance
+40 Unit tests
+60 Code check
+---------------
+100 points
+---------------
+
+
+5/5 Javadoc
+
+15/15 Style, submission, spec conformance
+	
+40/40 Unit tests (see the attached file Summary.txt)
+
+60/60 Code check (see below)
+=====
+120/120 total
+
+
+-----------------------------------------------------------------
+
+  6/6 Basic instance variables
+  
+  5/5 Constructor
+
+  2/2 getVolume 
+  
+  2/2 getTuner
+
+  4/4 louder
+
+  4/4 quieter
+  
+  4/4 setTuner
+
+  6/6 turnDial
+
+  6/6 setTunerFromStationNumber
+
+  9/9 findStationNumber
+
+  4/4 seekDown
+
+  4/4 seekUp
+
+  2/2 savePreset
+
+  2/2 goToPreset
+
+  
+
+-----------------------------------------------------------------

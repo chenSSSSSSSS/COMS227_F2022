@@ -1,0 +1,68 @@
+
+Author tags found: [Chen Sang] (in CarStereo.java)
+
+
+
+
+Summary: CS227 Assignment 1 Fall 2022
+-------------------------------------
+Name              Points    Exceptions
+--------------------------------------
+CarStereo tests   40/40     0
+--------------------------------------
+Total             40/40     0
+
+
+---------------
+Test Suite:  CarStereo tests
+
+Description: Tests methods of CarStereo class
+---------------
+   : Basic spec conformance
+   : Basic spec conformance
+   : Newly constructed CarStereo should have volume 0.5.
+   : After two calls to louder(), volume should be .82.
+   : After 3 calls to louder() and two calls to quieter(), volume should be .66.
+   : After 8 calls to louder(), volume should be 1.0.
+   : After 8 calls to louder() and one call to quieter(), volume should be .84.
+   : After one call to louder() and five calls to quieter(), volume should be 0.
+   : For CarStereo(100, 200, 5), getTuner() should initially be 100.0.
+   : For CarStereo(100, 200, 5), after setTuner(123.4) getTuner() should be 123.4.
+   : For CarStereo(100, 200, 5), after setTuner(500) getTuner() should be 200.0.
+   : For CarStereo(100, 200, 5), after setTuner(42) getTuner() should be 100.0.
+   : For CarStereo(250, 450, 10), getTuner() should initially be 250.0.
+   : For CarStereo(100, 200, 5), after turnDial(360), tuner should be 200.0.
+   : For CarStereo(100, 200, 5), after turnDial(360) and turnDial(-180), tuner should be 150.0.
+   : For CarStereo(100, 200, 5), after setTuner(150) and turnDial(15), tuner should be ~154.17.
+   : For CarStereo(250, 450, 10), after setTuner(300) and turnDial(27), tuner should be 315.0.
+   : For CarStereo(250, 450, 10), after setTuner(300) and turnDial(27) and turnDial(100), tuner should be ~340.56.
+   : For CarStereo(250, 450, 10), after setTuner(300) and turnDial(720), tuner should be 450.0.
+   : For CarStereo(250, 450, 10), after setTuner(300) and turnDial(-300), tuner should be 250.0.
+   : For CarStereo(100, 200, 5), after setting station 3, frequency should be 170.0.
+   : For CarStereo(250, 450, 10), after setting station 9, frequency should be 440.0.
+   : For CarStereo(20, 92, 6), after setting station 2, frequency should be 50.0.
+   : For CarStereo(20, 92, 6), after setting station 42, frequency should be 86.0.
+   : For CarStereo(20, 92, 6), after setting station -5, frequency should be 26.0.
+   : For CarStereo(100, 200, 5), after setTuner(180) and c.setTunerFromStationNumber(0), frequency should be 110.0.
+   : For CarStereo(100, 200, 5), after setTuner(162.0), station number should be 3.
+   : For CarStereo(100, 200, 5), after setTuner(134), station number should be 1.
+   : For CarStereo(100, 200, 5), after setTuner(200), station number should be 4.
+   : For CarStereo(20, 92, 6), after setTuner(32), station number should be 1.
+   : For CarStereo(100, 200, 5), after setTuner(162.0) and seekUp, tuner should be 190.0.
+   : For CarStereo(100, 200, 5), after setTuner(158.0) and seekUp, tuner should be 170.0.
+   : For CarStereo(100, 200, 5), after setTuner(185.0) and seekUp, tuner should be 110.0.
+   : For CarStereo(20, 92, 6), after setTuner(45) and seekUp, tuner should be 62.0.
+   : For CarStereo(100, 200, 5), after setTuner(172.0) and seekDown, tuner should be 150.0.
+   : For CarStereo(100, 200, 5), after setTuner(98.0) and seekDown, tuner should be 190.0.
+   : For CarStereo(20, 92, 6), after setTuner(31.0) and seekDown, tuner should be 86.0.
+   : For CarStereo(100, 200, 5), after setTuner(162), savePreset, and goToPreset, tuner should be 170.0.
+   : For CarStereo(20, 92, 6), after setTuner(51), savePreset, setTuner(75), and goToPreset, tuner should be 50.0.
+---------------
+Tests Passed:       39/39
+Exceptions Thrown:  0
+Score:              41/41
+Scaled Score:       40/40
+---------------
+
+
+
